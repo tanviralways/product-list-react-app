@@ -54,14 +54,19 @@ function Books() {
           <div className="form-container mb-5">
             <form onSubmit={handleSubmit}>
               <label>Title</label>
-              <input
+              {/* <input
                 onChange={(e) => {
                   setTitle(e.target.value);
                 }}
                 value={title}
                 type="text"
                 className="form-control"
-                required></input>
+                required></input> */}
+              <select name="colors" id="colors">
+                <option value="red"></option>
+                <option value="blue"></option>
+                <option value="black"></option>
+              </select>
               <br></br>
               <label>Author</label>
               <input

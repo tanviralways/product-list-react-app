@@ -17,6 +17,7 @@
   text-align: center;
   margin-top: 7px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .wrapper .main {
@@ -28,7 +29,7 @@
 .wrapper .form-container {
   width: 500px;
   height: 340px;
-  background-color: rgb(218, 173, 173);
+
   margin: 20px auto;
   padding: 20px;
   border-radius: 5px;
@@ -36,6 +37,7 @@
 
 .wrapper .form-container .btn {
   width: 100%;
+  margin-top: 50px;
 }
 
 .wrapper .view-container {
@@ -54,4 +56,19 @@
 
 tbody {
   margin-top: 25px;
+}
+form {
+  background-color: rgb(113, 173, 175);
+  padding: 10px 20px 0px 20px;
+  margin-bottom: 10px;
+}
+select {
+  word-wrap: normal;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+  padding: 8px 0;
+  margin-bottom: 25px;
+}
+textarea {
+  border-radius: 6px;
 }
