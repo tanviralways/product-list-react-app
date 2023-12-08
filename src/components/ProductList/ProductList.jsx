@@ -126,7 +126,7 @@ function ProductList() {
                 rows="4"></textarea>
               <button
                 type="submit"
-                className="mb-5 btn btn-outline-success btn-md">
+                className="mb-5 btn bg-btn-primary btn-outline-success btn-md">
                 ADD
               </button>
             </form>
